@@ -1,0 +1,1994 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta -->
+  <title>Yıldız Nakliyat – Diyarbakır Evden Eve Taşımacılık | Şehiriçi & Şehirlerarası Nakliye</title>
+  <meta name="description" content="Diyarbakır'ın güvenilir nakliyat firması Yıldız Nakliyat. Evden eve taşımacılık, şehiriçi ve şehirlerarası nakliye hizmetleri. Sigortalı, profesyonel, ambalajlı taşıma. Hemen arayın: 0534 058 40 31" />
+  <meta name="keywords" content="diyarbakır nakliyat, evden eve taşımacılık diyarbakır, şehirlerarası nakliyat, yıldız nakliyat, diyarbakır taşımacılık, sigortalı nakliyat" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.yildiznakliyat.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.yildiznakliyat.com/" />
+  <meta property="og:title" content="Yıldız Nakliyat – Diyarbakır Evden Eve Taşımacılık" />
+  <meta property="og:description" content="Güvenle Taşır, Gönül Rahatlığı Sağlarız! Diyarbakır merkezli şehiriçi ve şehirlerarası profesyonel nakliyat hizmetleri." />
+  <meta property="og:locale" content="tr_TR" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "Yıldız Nakliyat",
+    "url": "https://www.yildiznakliyat.com",
+    "telephone": ["+905340584031", "+905454838251"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Diyarbakır",
+      "addressCountry": "TR"
+    },
+    "description": "Diyarbakır merkezli evden eve taşımacılık, şehiriçi ve şehirlerarası nakliyat hizmetleri.",
+    "areaServed": "Turkey",
+    "priceRange": "₺₺"
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─── TOKENS ──────────────────────────────────────────────── */
+    :root {
+      --navy:      #0D1B3E;
+      --navy-mid:  #162550;
+      --gold:      #D4920A;
+      --gold-light:#F0B429;
+      --sky:       #5B9EC9;
+      --sky-pale:  #D6EAF5;
+      --white:     #FFFFFF;
+      --off:       #F5F7FA;
+      --text:      #1A1F36;
+      --muted:     #6B7280;
+      --radius:    6px;
+      --transition: 0.35s cubic-bezier(.25,.8,.25,1);
+    }
+
+    /* ─── RESET ───────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: var(--white);
+      overflow-x: hidden;
+    }
+    img { display: block; max-width: 100%; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* ─── UTILITY ─────────────────────────────────────────────── */
+    .container { width: min(1180px, 92%); margin-inline: auto; }
+    .sr-only { position: absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); }
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .65s ease, transform .65s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    /* ─── NAVBAR ──────────────────────────────────────────────── */
+    .navbar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 999;
+      background: transparent;
+      transition: background var(--transition), box-shadow var(--transition);
+      padding: 18px 0;
+    }
+    .navbar.scrolled {
+      background: rgba(13,27,62,.97);
+      box-shadow: 0 2px 20px rgba(0,0,0,.3);
+      padding: 12px 0;
+    }
+    .navbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-star {
+      width: 42px;
+      height: 42px;
+      flex-shrink: 0;
+    }
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1;
+    }
+    .logo-text strong {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: 1.5rem;
+      color: var(--white);
+      letter-spacing: .04em;
+    }
+    .logo-text span {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: .8rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+    .nav-links a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: .06em;
+      color: rgba(255,255,255,.85);
+      text-transform: uppercase;
+      transition: color var(--transition);
+    }
+    .nav-links a:hover { color: var(--gold-light); }
+    .nav-cta {
+      background: var(--gold);
+      color: var(--navy) !important;
+      padding: 8px 20px;
+      border-radius: var(--radius);
+      font-weight: 700 !important;
+      transition: background var(--transition) !important;
+    }
+    .nav-cta:hover { background: var(--gold-light) !important; }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block;
+      width: 26px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: var(--transition);
+    }
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+      background: var(--navy);
+      position: absolute;
+      top: 100%;
+      left: 0; right: 0;
+      padding: 12px 0 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.3);
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--white);
+      padding: 12px 24px;
+      border-bottom: 1px solid rgba(255,255,255,.07);
+      transition: background var(--transition);
+    }
+    .mobile-menu a:hover { background: rgba(255,255,255,.07); }
+
+    /* ─── HERO ────────────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--navy);
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(170deg, rgba(13,27,62,.92) 0%, rgba(13,27,62,.65) 50%, rgba(91,158,201,.25) 100%),
+        url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1600&q=80') center/cover no-repeat;
+      transform: scale(1.05);
+      transition: transform 8s ease;
+    }
+    .hero.loaded .hero-bg { transform: scale(1); }
+
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 140px 0 160px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: min(1180px, 92%);
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(212,146,10,.18);
+      border: 1px solid rgba(212,146,10,.4);
+      border-radius: 100px;
+      padding: 6px 16px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: .9rem;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 20px;
+    }
+    .hero-badge::before {
+      content: '';
+      width: 8px; height: 8px;
+      background: var(--gold-light);
+      border-radius: 50%;
+      animation: pulse 1.8s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: .5; transform: scale(.7); }
+    }
+    .hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(2.8rem, 8vw, 6rem);
+      line-height: 0.95;
+      color: var(--white);
+      letter-spacing: .01em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      text-align: right;
+    }
+    .hero h1 em {
+      font-style: normal;
+      color: var(--gold-light);
+      display: block;
+    }
+    .hero-sub {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      color: rgba(255,255,255,.78);
+      line-height: 1.6;
+      max-width: 520px;
+      margin-bottom: 36px;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      padding: 14px 28px;
+      border-radius: var(--radius);
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .btn-gold {
+      background: var(--gold);
+      color: var(--navy);
+      border-color: var(--gold);
+    }
+    .btn-gold:hover {
+      background: var(--gold-light);
+      border-color: var(--gold-light);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(212,146,10,.35);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border-color: rgba(255,255,255,.4);
+    }
+    .btn-outline:hover {
+      border-color: var(--white);
+      background: rgba(255,255,255,.08);
+    }
+    .hero-phones {
+      margin-top: 48px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .hero-phone-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: var(--radius);
+      padding: 10px 18px;
+      backdrop-filter: blur(8px);
+    }
+    .hero-phone-item svg { color: var(--gold-light); flex-shrink: 0; }
+    .hero-phone-item a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: .04em;
+      color: var(--white);
+      transition: color var(--transition);
+    }
+    .hero-phone-item a:hover { color: var(--gold-light); }
+
+    /* Scroll indicator */
+    .scroll-hint {
+      position: absolute;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      color: rgba(255,255,255,.5);
+      font-size: .7rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+    .scroll-hint-arrow {
+      width: 28px;
+      height: 28px;
+      border: 2px solid rgba(255,255,255,.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: bounce 2s ease-in-out infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(6px); }
+    }
+
+    /* ─── STATS BAR ───────────────────────────────────────────── */
+    .stats-bar {
+      background: var(--navy-mid);
+      padding: 0;
+      overflow: hidden;
+    }
+    .stats-inner {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      divide-x: 1px solid rgba(255,255,255,.1);
+    }
+    .stat-item {
+      padding: 28px 24px;
+      text-align: center;
+      border-right: 1px solid rgba(255,255,255,.1);
+      position: relative;
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-num {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 2.6rem;
+      font-weight: 900;
+      color: var(--gold-light);
+      line-height: 1;
+      letter-spacing: .02em;
+    }
+    .stat-label {
+      font-size: .78rem;
+      color: rgba(255,255,255,.6);
+      margin-top: 4px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 600;
+    }
+
+    /* ─── SECTION BASE ────────────────────────────────────────── */
+    section { padding: 88px 0; }
+    .section-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: .85rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1;
+      text-transform: uppercase;
+      color: var(--navy);
+      letter-spacing: .01em;
+      margin-bottom: 16px;
+    }
+    .section-title span { color: var(--gold); }
+    .section-desc {
+      font-size: 1rem;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 560px;
+    }
+    .section-header { margin-bottom: 52px; }
+    .section-header.center {
+      text-align: center;
+    }
+    .section-header.center .section-desc { margin-inline: auto; }
+
+    /* ─── HIZMETLER ───────────────────────────────────────────── */
+    #hizmetler { background: var(--off); }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+    .service-card {
+      background: var(--white);
+      border-radius: 10px;
+      padding: 36px 28px;
+      border: 1px solid rgba(0,0,0,.06);
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .service-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0;
+      width: 0; height: 3px;
+      background: var(--gold);
+      transition: width var(--transition);
+    }
+    .service-card:hover {
+      box-shadow: 0 16px 40px rgba(13,27,62,.1);
+      transform: translateY(-4px);
+    }
+    .service-card:hover::after { width: 100%; }
+    .service-icon {
+      width: 52px; height: 52px;
+      background: var(--sky-pale);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      transition: background var(--transition);
+    }
+    .service-card:hover .service-icon {
+      background: var(--navy);
+    }
+    .service-icon svg {
+      color: var(--navy);
+      transition: color var(--transition);
+    }
+    .service-card:hover .service-icon svg { color: var(--gold-light); }
+    .service-card h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+    .service-card p {
+      font-size: .9rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ─── NEDEN BIZ ───────────────────────────────────────────── */
+    #neden-biz {
+      background: var(--navy);
+      position: relative;
+      overflow: hidden;
+    }
+    #neden-biz::before {
+      content: '';
+      position: absolute;
+      top: -120px; right: -120px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(91,158,201,.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    #neden-biz .section-title { color: var(--white); }
+    #neden-biz .section-desc { color: rgba(255,255,255,.6); }
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .why-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .why-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .why-dot {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: rgba(212,146,10,.15);
+      border: 1px solid rgba(212,146,10,.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .why-dot svg { color: var(--gold-light); }
+    .why-item h4 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+    .why-item p {
+      font-size: .88rem;
+      color: rgba(255,255,255,.55);
+      line-height: 1.6;
+    }
+    .why-visual {
+      position: relative;
+    }
+    .why-img-wrap {
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+    .why-img-wrap img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      display: block;
+    }
+    .why-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(13,27,62,.7) 0%, transparent 50%);
+    }
+    .why-badge {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+      right: 24px;
+      background: rgba(13,27,62,.9);
+      border: 1px solid rgba(212,146,10,.3);
+      border-radius: 8px;
+      padding: 16px 20px;
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .why-badge-icon {
+      width: 42px; height: 42px;
+      background: var(--gold);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .why-badge-text strong {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      display: block;
+    }
+    .why-badge-text span {
+      font-size: .8rem;
+      color: rgba(255,255,255,.55);
+    }
+
+    /* ─── ARAÇLARIMIZ ─────────────────────────────────────────── */
+    #araclar { background: var(--white); }
+    .fleet-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+    .fleet-card {
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+      background: var(--navy);
+    }
+    .fleet-card img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      opacity: .7;
+      transition: opacity var(--transition), transform var(--transition);
+    }
+    .fleet-card:hover img {
+      opacity: .85;
+      transform: scale(1.03);
+    }
+    .fleet-info {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 20px 24px;
+      background: linear-gradient(to top, rgba(13,27,62,.95) 0%, transparent 100%);
+    }
+    .fleet-info h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+    .fleet-info p {
+      font-size: .82rem;
+      color: rgba(255,255,255,.6);
+    }
+    .fleet-tag {
+      position: absolute;
+      top: 16px; right: 16px;
+      background: var(--gold);
+      color: var(--navy);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: .78rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+
+    /* ─── ARAÇ FİLOSU (yeni düzen) ───────────────────────────── */
+    .fleet-hero { display: flex; flex-direction: column; gap: 20px; }
+    .fleet-hero-img-wrap {
+      border-radius: 14px;
+      overflow: hidden;
+      background: var(--navy);
+      max-height: 420px;
+    }
+    .fleet-hero-img-wrap img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      transition: transform var(--transition);
+    }
+    .fleet-hero-img-wrap:hover img { transform: scale(1.02); }
+    .fleet-placeholder {
+      height: 420px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 12px;
+      background: rgba(255,255,255,.04);
+      color: rgba(255,255,255,.5);
+      font-size: .95rem;
+      text-align: center;
+    }
+    .fleet-placeholder strong { color: var(--gold-light); }
+    .fleet-cards-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .fleet-badge-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--off);
+      border: 1px solid rgba(13,27,62,.08);
+      border-radius: 10px;
+      padding: 18px 20px;
+      transition: var(--transition);
+      position: relative;
+    }
+    .fleet-badge-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 6px 20px rgba(212,146,10,.12);
+      transform: translateY(-2px);
+    }
+    .fleet-badge-icon {
+      width: 52px; height: 52px;
+      background: rgba(13,27,62,.08);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      color: var(--navy);
+    }
+    .fleet-badge-card > div:nth-child(2) strong {
+      display: block;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+    .fleet-badge-card > div:nth-child(2) span {
+      font-size: .82rem;
+      color: var(--muted);
+    }
+    .fleet-badge-tag {
+      margin-left: auto;
+      background: var(--gold);
+      color: var(--navy);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: .75rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 4px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    @media (max-width: 640px) {
+      .fleet-cards-row { grid-template-columns: 1fr; }
+      .fleet-hero-img-wrap img,
+      .fleet-placeholder { height: 240px; }
+    }
+
+    /* ─── MÜŞTERİ YORUMLARI ───────────────────────────────────── */
+    #yorumlar { background: var(--off); }
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .review-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 28px 24px;
+      border: 1px solid rgba(13,27,62,.07);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transition: var(--transition);
+      position: relative;
+    }
+    .review-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(13,27,62,.1);
+    }
+    .review-quote {
+      position: absolute;
+      top: 20px; right: 20px;
+      font-size: 3rem;
+      line-height: 1;
+      color: var(--sky-pale);
+      font-family: Georgia, serif;
+      pointer-events: none;
+    }
+    .review-stars {
+      display: flex;
+      gap: 3px;
+    }
+    .review-stars span {
+      color: var(--gold);
+      font-size: 1rem;
+    }
+    .review-text {
+      font-size: .92rem;
+      color: var(--text);
+      line-height: 1.7;
+      flex: 1;
+    }
+    .review-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-top: 1px solid rgba(13,27,62,.07);
+      padding-top: 16px;
+    }
+    .review-avatar {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      background: var(--navy);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--gold-light);
+    }
+    .review-author-info strong {
+      display: block;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1rem;
+      font-weight: 800;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+    .review-author-info span {
+      font-size: .8rem;
+      color: var(--muted);
+    }
+    .review-verified {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: .75rem;
+      color: #16a34a;
+      font-weight: 600;
+    }
+    @media (max-width: 900px) {
+      .reviews-grid { grid-template-columns: 1fr; }
+    }
+    @media (min-width: 641px) and (max-width: 900px) {
+      .reviews-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* ─── BÖLGELER / HİZMET ALANLARI ─────────────────────────── */
+    #bolgeler { background: var(--off); }
+    .cities-marquee-wrap {
+      overflow: hidden;
+      margin-top: 32px;
+      position: relative;
+    }
+    .cities-marquee-wrap::before,
+    .cities-marquee-wrap::after {
+      content: '';
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 80px;
+      z-index: 2;
+      pointer-events: none;
+    }
+    .cities-marquee-wrap::before {
+      left: 0;
+      background: linear-gradient(to right, var(--off), transparent);
+    }
+    .cities-marquee-wrap::after {
+      right: 0;
+      background: linear-gradient(to left, var(--off), transparent);
+    }
+    .cities-marquee {
+      display: flex;
+      gap: 0;
+      width: max-content;
+      animation: marquee 28s linear infinite;
+    }
+    .cities-marquee:hover { animation-play-state: paused; }
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+    .city-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--white);
+      border: 1px solid rgba(13,27,62,.1);
+      border-radius: 100px;
+      padding: 10px 20px;
+      margin: 0 8px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--navy);
+      white-space: nowrap;
+      transition: var(--transition);
+    }
+    .city-chip:hover {
+      background: var(--navy);
+      color: var(--white);
+      border-color: var(--navy);
+    }
+    .city-chip::before {
+      content: '★';
+      color: var(--gold);
+      font-size: .7rem;
+    }
+
+    /* ─── SEO METİN BLOĞU ─────────────────────────────────────── */
+    .seo-block {
+      background: var(--white);
+      padding: 64px 0;
+      border-top: 1px solid rgba(0,0,0,.06);
+    }
+    .seo-block .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 40px;
+    }
+    .seo-col h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--navy);
+      margin-bottom: 12px;
+    }
+    .seo-col p {
+      font-size: .88rem;
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    /* ─── İLETİŞİM ────────────────────────────────────────────── */
+    #iletisim {
+      background: var(--navy);
+      padding: 80px 0;
+    }
+    #iletisim .section-title { color: var(--white); }
+    #iletisim .section-desc { color: rgba(255,255,255,.6); }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 56px;
+      align-items: start;
+      margin-top: 48px;
+    }
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .contact-card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 10px;
+      padding: 20px 24px;
+      transition: var(--transition);
+    }
+    .contact-card:hover {
+      border-color: rgba(212,146,10,.4);
+      background: rgba(212,146,10,.07);
+    }
+    .contact-card-icon {
+      width: 46px; height: 46px;
+      background: var(--gold);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .contact-card-icon svg { color: var(--navy); }
+    .contact-card-body label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.45);
+      display: block;
+      margin-bottom: 2px;
+    }
+    .contact-card-body a,
+    .contact-card-body span {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: .03em;
+      transition: color var(--transition);
+    }
+    .contact-card-body a:hover { color: var(--gold-light); }
+
+    /* Contact form */
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: .85rem;
+      font-weight: 600;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.5);
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      font-family: 'Inter', sans-serif;
+      font-size: .92rem;
+      color: var(--white);
+      outline: none;
+      transition: border-color var(--transition);
+      width: 100%;
+    }
+    .form-group input::placeholder,
+    .form-group textarea::placeholder { color: rgba(255,255,255,.25); }
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus { border-color: var(--gold); }
+    .form-group select option { background: var(--navy); }
+    .form-group textarea { resize: vertical; min-height: 110px; }
+    .form-submit {
+      width: 100%;
+      background: var(--gold);
+      color: var(--navy);
+      border: none;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 1.1rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: 16px;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .form-submit:hover {
+      background: var(--gold-light);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(212,146,10,.35);
+    }
+
+    /* ─── FOOTER ──────────────────────────────────────────────── */
+    footer {
+      background: #080F22;
+      padding: 48px 0 32px;
+    }
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 40px;
+    }
+    .footer-brand p {
+      font-size: .88rem;
+      color: rgba(255,255,255,.45);
+      line-height: 1.7;
+      margin-top: 14px;
+      max-width: 280px;
+    }
+    .footer-col h4 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--white);
+      margin-bottom: 16px;
+    }
+    .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul li a {
+      font-size: .88rem;
+      color: rgba(255,255,255,.45);
+      transition: color var(--transition);
+    }
+    .footer-col ul li a:hover { color: var(--gold-light); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,.07);
+      padding-top: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .footer-bottom p {
+      font-size: .8rem;
+      color: rgba(255,255,255,.3);
+    }
+    .footer-bottom strong { color: rgba(255,255,255,.5); }
+
+    /* WhatsApp FAB */
+    .whatsapp-fab {
+      position: fixed;
+      bottom: 79px;
+      right: 28px;
+      z-index: 998;
+      width: 56px;
+      height: 56px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.4);
+      transition: var(--transition);
+    }
+    .whatsapp-fab:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 28px rgba(37,211,102,.55);
+    }
+
+    /* Phone FAB bar on mobile */
+    .phone-bar {
+      --phone-bar-opacity: 0;
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 997;
+      background: var(--navy);
+      /* border-top: 2px solid var(--gold); */
+      padding: 10px 16px;
+      gap: 10px;
+      opacity: var(--phone-bar-opacity);
+      transform: translateY(18px);
+      pointer-events: none;
+      transition: opacity .18s linear, transform .18s linear;
+      will-change: opacity, transform;
+    }
+    .phone-bar a {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      letter-spacing: .04em;
+      padding: 12px;
+      border-radius: var(--radius);
+    }
+    .phone-bar a:first-child { background: var(--gold); color: var(--navy); }
+    .phone-bar a:last-child { background: rgba(255,255,255,.1); color: var(--white); border: 1px solid rgba(255,255,255,.2); }
+
+    /* ─── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .why-grid { grid-template-columns: 1fr; }
+      .why-visual { display: none; }
+      .fleet-grid { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+      .footer-brand { grid-column: 1 / -1; }
+      .seo-block .container { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      section { padding: 64px 0; }
+      .stats-inner { grid-template-columns: repeat(2, 1fr); }
+      .stat-item { border-bottom: 1px solid rgba(255,255,255,.1); }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr; gap: 28px; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .phone-bar { display: flex; }
+      body { padding-bottom: 70px; }
+      .hero-phones { display: none; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ─── NAVBAR ──────────────────────────────────────────────── -->
+  <header>
+    <nav class="navbar" id="navbar" aria-label="Ana navigasyon">
+      <div class="container navbar-inner">
+        <a href="#" class="logo" aria-label="Yıldız Nakliyat Ana Sayfa">
+          <svg class="logo-star" width=".19333in" height=".21in" viewBox="0 0 58 63" xmlns="http://www.w3.org/2000/svg"><path d="m52.94 15.12c1.19 0 3.84-0.26 4.65 0.7 0.67 0.78 0.06 1.97-0.39 2.7-1.38 2.19-3.02 3.49-4.86 5.2l-6.2 5.28c-5.6 4.73-11.26 9.5-15.76 15.32-1.63 2.11-2.89 4.46-3.71 7-0.48 1.5-0.6 2.98 0.69 4.13 1.62 1.45 4.54 1.27 6.58 1.27 0 0 1.4 4.8 1.4 4.8l-4.4 0.4c-5.5 0.06-12.7-1.07-13.37-7.8-0.11-1.16 0.26-2.86 0.55-4 0.36-1.4 1.5-3.54 2.26-4.8 5.91-9.78 17.27-16.57 26.76-22.49l6.6-4.38c0.53-0.45 1.75-1.49 1.37-2.29-0.32-0.69-1.52-0.76-2.17-1.04z" fill="#fff" stroke-width="0"/><path d="m30.64 0.44s0.09-0.2 0.19-0.2 0.21 0.2 0.21 0.2l4.83 14.8s1.15 3.6 1.15 3.6c0.15 0.49 0.29 1.07 0.85 1.24 0.43 0.13 2.94-0.57 3.57-0.71 2.62-0.6 5.32-1.13 8-1.13-0.91 1.07-2.76 2.03-4 2.81l-7.8 4.92c-6.3 4.08-12.14 8.9-16.97 14.67-2.16 2.59-4.44 6.5-5.25 9.8-0.24 1-0.41 2.17-0.37 3.2 0.03 0.64 0.31 1.58 0 2.13-0.25 0.42-1 0.86-1.41 1.13l-3 1.94 1.8-5.8 3.67-11 1.5-4.4 0.4-1.99s-1.37-1.39-1.37-1.39l-3.2-2.3-8.4-6.12-4.6-3.6h20.8l1.53-0.21 0.77-1.39 1.22-3.4s1.75-5.2 1.75-5.2l4.13-11.6zm10.6 36c0.88 1.01 1.82 4.74 2.31 6.2l4.69 14.8-5-3.29-11.4-8.11c0.45-1.15 1.75-2.47 2.62-3.4 2.1-2.26 4.39-4.28 6.78-6.2z" fill="#dba21d" stroke-width="0"/></svg>
+          <div class="logo-text">
+            <strong>Yıldız Nakliyat</strong>
+            <span>Diyarbakır</span>
+          </div>
+        </a>
+        <ul class="nav-links" role="list">
+          <li><a href="#hizmetler">Hizmetler</a></li>
+          <li><a href="#neden-biz">Neden Biz</a></li>
+          <li><a href="#araclar">Araçlarımız</a></li>
+          <li><a href="#yorumlar">Yorumlar</a></li>
+          <li><a href="#bolgeler">Bölgeler</a></li>
+          <li><a href="#iletisim" class="nav-cta">Teklif Al</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menüyü aç/kapat" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu" role="navigation">
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#neden-biz">Neden Biz</a>
+        <a href="#araclar">Araçlarımız</a>
+        <a href="#yorumlar">Yorumlar</a>
+        <a href="#bolgeler">Bölgeler</a>
+        <a href="#iletisim">Teklif Al</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ─── HERO ─────────────────────────────────────────────── -->
+    <section class="hero" id="hero" aria-label="Ana Sayfa">
+      <div class="hero-bg" id="heroBg"></div>
+
+      <!-- Animated highway route line -->
+      <div class="hero-route" aria-hidden="true">
+        <div class="hero-route-line"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge" aria-label="Diyarbakır merkezli nakliyat firması">
+          Diyarbakır Merkezli · Türkiye Geneli
+        </div>
+        <h1>
+          Eşyalarınız<br/>
+          <em>Bizimle Güvende</em>
+        </h1>
+        <p class="hero-sub">
+          Güvenle Taşır, Gönül Rahatlığı Sağlarız. Şehiriçi ve şehirlerarası
+          taşımacılıkta profesyonel hizmet, sigortalı nakliye.
+        </p>
+        <div class="hero-actions">
+          <a href="tel:+905340584031" class="btn btn-gold">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.69 19.79 19.79 0 01.1 1.05 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Hemen Ara
+          </a>
+          <a href="#iletisim" class="btn btn-outline">
+            Ücretsiz Teklif Al
+          </a>
+        </div>
+        <div class="hero-phones">
+          <div class="hero-phone-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.69 19.79 19.79 0 01.1 1.05 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:+905340584031">0534 058 40 31</a>
+          </div>
+          <div class="hero-phone-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.69 19.79 19.79 0 01.1 1.05 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:+905454838251">0545 483 82 51</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <div class="scroll-hint-arrow">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        Keşfet
+      </div>
+    </section>
+
+    <!-- ─── STATS BAR ──────────────────────────────────────────── -->
+    <div class="stats-bar" role="region" aria-label="Firma istatistikleri">
+      <div class="stats-inner">
+        <div class="stat-item reveal">
+          <div class="stat-num" data-target="5000">0</div>
+          <div class="stat-label">Tamamlanan Taşıma</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-num" data-target="10">0</div>
+          <div class="stat-label">Yıllık Deneyim</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-num" data-target="81">0</div>
+          <div class="stat-label">İle Hizmet</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-num" data-target="100">0</div>
+          <div class="stat-label">% Müşteri Memnuniyeti</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── HİZMETLER ──────────────────────────────────────────── -->
+    <div class="poster">
+      <img src="./images/poster.jpeg" alt="" srcset="" style="width: 100%;">
+    </div>
+    <section id="hizmetler" aria-label="Hizmetlerimiz">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Ne Yapıyoruz</p>
+          <h2 class="section-title">Nakliyat <span>Hizmetlerimiz</span></h2>
+          <p class="section-desc">Diyarbakır ve Türkiye'nin tüm şehirlerine güvenli, hızlı ve sigortalı taşımacılık hizmetleri sunuyoruz.</p>
+        </div>
+        <div class="services-grid">
+
+          <article class="service-card reveal">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3>Evden Eve Taşımacılık</h3>
+            <p>Eşyalarınız özenle paketlenir, güvenle taşınır ve yeni evinizde titizlikle kurulur. Baştan sona hizmet.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <h3>Şehirlerarası Nakliyat</h3>
+            <p>Diyarbakır'dan Türkiye'nin tüm şehirlerine uzun yol nakliyat hizmeti. Zamanında ve hasarsız teslimat garantisi.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3>Şehiriçi Nakliyat</h3>
+            <p>Diyarbakır içinde hızlı, pratik ve uygun fiyatlı taşımacılık hizmeti. Aynı gün teslimat seçeneği mevcuttur.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Sigortalı Taşımacılık</h3>
+            <p>Tüm taşımalarımız sigorta güvencesi altındadır. Eşyalarınıza gelebilecek her türlü hasara karşı tam koruma.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+            </div>
+            <h3>Ambalajlı Taşımacılık</h3>
+            <p>Kırılgan ve değerli eşyalarınız özel ambalaj malzemeleriyle paketlenir. Ekipmanlı ve deneyimli personelimizle güvende.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h3>Asansörlü Taşıma</h3>
+            <p>Yüksek katlı binalarda asansörlü taşıma hizmeti. Ağır ve hacimli eşyalarınızı balkon veya pencereden güvenle indirip çıkarıyoruz.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── NEDEN BİZ ───────────────────────────────────────────── -->
+    <section id="neden-biz" aria-label="Neden Yıldız Nakliyat">
+      <div class="container">
+        <div class="why-grid">
+          <div>
+            <div class="section-header reveal">
+              <p class="section-label">Farkımız</p>
+              <h2 class="section-title">Neden <span>Yıldız Nakliyat?</span></h2>
+              <p class="section-desc">10 yılı aşkın deneyimimiz ve profesyonel ekibimizle her taşımada güveni ve konforu bir arada sunuyoruz.</p>
+            </div>
+            <div class="why-list">
+              <div class="why-item reveal">
+                <div class="why-dot">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div>
+                  <h4>Uzman & Deneyimli Ekip</h4>
+                  <p>Alanında eğitimli, deneyimli personelimiz eşyalarınıza özen ve titizlikle yaklaşır.</p>
+                </div>
+              </div>
+              <div class="why-item reveal">
+                <div class="why-dot">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <h4>Zamanında Teslimat</h4>
+                  <p>Belirlenen tarih ve saatte kesin teslimat garantisi. Gecikme yok, sürpriz yok.</p>
+                </div>
+              </div>
+              <div class="why-item reveal">
+                <div class="why-dot">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div>
+                  <h4>Tam Sigorta Güvencesi</h4>
+                  <p>Taşıdığımız her eşya sigortalıdır. Olası hasarlarda tazminat garantisi sunuyoruz.</p>
+                </div>
+              </div>
+              <div class="why-item reveal">
+                <div class="why-dot">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                </div>
+                <div>
+                  <h4>Şeffaf & Uygun Fiyat</h4>
+                  <p>Gizli maliyet yok. Ücretsiz keşif ve net fiyat teklifi ile sürpriz fatura tarihe karışıyor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="why-visual reveal">
+            <div class="why-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+                alt="Yıldız Nakliyat profesyonel ekibi çalışma sırasında"
+                loading="lazy"
+                width="800" height="420"
+              />
+              <div class="why-overlay"></div>
+              <div class="why-badge">
+                <div class="why-badge-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div class="why-badge-text">
+                  <strong>Tüm Eşyalarınız Güvende</strong>
+                  <span>Sigortalı · Ambalajlı · Profesyonel</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- road divider -->
+    <div class="road-divider" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- ─── ARAÇLARIMIZ ─────────────────────────────────────────── -->
+    <section id="araclar" aria-label="Araç Filomuz">
+      <div class="container">
+        <div class="section-header center reveal">
+          <p class="section-label">Filomuz</p>
+          <h2 class="section-title">Modern <span>Araç Filomuz</span></h2>
+          <p class="section-desc">Tam donanımlı, yeni model araçlarımızla eşyalarınız en güvenli koşullarda taşınır.</p>
+        </div>
+        <div class="fleet-grid">
+
+          <article class="fleet-card reveal">
+            <img
+              src="./images/kamyon.png"
+              alt="Yıldız Nakliyat kamyon ve asansörlü araç filosu"
+              loading="lazy"
+              width="800" height="260"
+            />
+            <div class="fleet-info">
+              <h3>Kamyon</h3>
+              <p>Şehirlerarası ve büyük ev taşımaları için</p>
+            </div>
+            <span class="fleet-tag">Şehirlerarası</span>
+          </article>
+
+          <article class="fleet-card reveal">
+            <img
+              src="./images/asansorlu.png"
+              alt="Yıldız Nakliyat asansörlü taşıma aracı"
+              loading="lazy"
+              width="800" height="260"
+            />
+            <div class="fleet-info">
+              <h3>Asansörlü Araç</h3>
+              <p>Yüksek katlı taşımalar için özel ekipman</p>
+            </div>
+            <span class="fleet-tag">Asansörlü</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- road divider -->
+    <div class="road-divider" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- ─── MÜŞTERİ YORUMLARI ──────────────────────────────────── -->
+    <section id="yorumlar" aria-label="Müşteri Yorumları">
+      <div class="container">
+        <div class="section-header center reveal">
+          <p class="section-label">Müşterilerimiz Ne Diyor?</p>
+          <h2 class="section-title">Gerçek <span>Deneyimler</span></h2>
+          <p class="section-desc">Binlerce mutlu müşterimizin güveniyle hizmet vermeye devam ediyoruz.</p>
+        </div>
+        <div class="reviews-grid">
+
+          <article class="review-card reveal">
+            <span class="review-quote" aria-hidden="true">"</span>
+            <div class="review-stars" aria-label="5 yıldız">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-text">
+              İstanbul'dan Diyarbakır'a taşındık, gerçekten hiç sorun yaşamadık. Eşyalarımızı özenle paketlediler, hiçbir şey kırılmadı. Fiyat da rakiplerine göre çok makul. Kesinlikle tavsiye ederim.
+            </p>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">AK</div>
+              <div class="review-author-info">
+                <strong>Ahmet Karataş</strong>
+                <span>İstanbul → Diyarbakır</span>
+              </div>
+              <div class="review-verified" aria-label="Doğrulanmış yorum">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Doğrulandı
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <span class="review-quote" aria-hidden="true">"</span>
+            <div class="review-stars" aria-label="5 yıldız">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-text">
+              5. kattan asansörlü araçla taşındık, inanılmaz pratik oldu. Ekip sabah 8'de geldi, öğleden önce her şey bitmişti. Çalışma ekibi çok nazik ve dikkatli. Bir daha taşınmam gerekse yine Yıldız Nakliyat'ı arayacağım.
+            </p>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">FY</div>
+              <div class="review-author-info">
+                <strong>Fatma Yılmaz</strong>
+                <span>Diyarbakır Şehiriçi</span>
+              </div>
+              <div class="review-verified" aria-label="Doğrulanmış yorum">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Doğrulandı
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <span class="review-quote" aria-hidden="true">"</span>
+            <div class="review-stars" aria-label="5 yıldız">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-text">
+              Ankaralı hocam tavsiye etti, doğru bir tercih oldu. Hem sigortalı taşıma hem ambalajlama hizmeti mükemmeldi. Antika dolabım hiçbir çizik almadan geldi. Fiyat teklifi çok hızlı verildi, gün içinde geldiler.
+            </p>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">MÖ</div>
+              <div class="review-author-info">
+                <strong>Mehmet Öztürk</strong>
+                <span>Ankara → Diyarbakır</span>
+              </div>
+              <div class="review-verified" aria-label="Doğrulanmış yorum">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Doğrulandı
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <span class="review-quote" aria-hidden="true">"</span>
+            <div class="review-stars" aria-label="5 yıldız">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-text">
+              Diyarbakır'dan Gaziantep'e ofis taşıması yaptık. Hem hızlıydılar hem de iş akışımızı bozmadan, tek günde bitirdiler. Bilgisayar ve ekipmanlarımız sorunsuz taşındı. Teşekkürler Yıldız ekibi!
+            </p>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">SE</div>
+              <div class="review-author-info">
+                <strong>Selin Erdoğan</strong>
+                <span>Diyarbakır → Gaziantep</span>
+              </div>
+              <div class="review-verified" aria-label="Doğrulanmış yorum">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Doğrulandı
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <span class="review-quote" aria-hidden="true">"</span>
+            <div class="review-stars" aria-label="5 yıldız">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-text">
+              Telefonda çok kibarca bilgi verdiler, keşfe geldiler ve doğru fiyat teklifi sundular. Başka firmalar belirsiz konuşuyordu ama Yıldız Nakliyat şeffaf davrandı. Taşınma günü de tam söyledikleri gibi oldu.
+            </p>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">HK</div>
+              <div class="review-author-info">
+                <strong>Hasan Kaya</strong>
+                <span>Diyarbakır Şehiriçi</span>
+              </div>
+              <div class="review-verified" aria-label="Doğrulanmış yorum">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Doğrulandı
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <span class="review-quote" aria-hidden="true">"</span>
+            <div class="review-stars" aria-label="5 yıldız">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-text">
+              Mersin'den Diyarbakır'a uzun mesafe taşıma yaptık. Eşyalarımız ertesi sabah erken saatte kapıda hazırdı. WhatsApp'tan takip edebildim, güven verdi. Fiyat-performans açısından en iyi nakliye firması.
+            </p>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">NA</div>
+              <div class="review-author-info">
+                <strong>Nur Arslan</strong>
+                <span>Mersin → Diyarbakır</span>
+              </div>
+              <div class="review-verified" aria-label="Doğrulanmış yorum">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Doğrulandı
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- road divider -->
+    <div class="road-divider" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- ─── BÖLGELER ────────────────────────────────────────────── -->
+    <section id="bolgeler" aria-label="Hizmet Bölgelerimiz">
+      <div class="container">
+        <div class="section-header center reveal">
+          <p class="section-label">Hizmet Alanımız</p>
+          <h2 class="section-title">Türkiye'nin <span>Her İline</span> Ulaşıyoruz</h2>
+          <p class="section-desc">Diyarbakır merkezli olarak başlayan yolculuğumuz Türkiye'nin dört bir yanına ulaşıyor.</p>
+        </div>
+      </div>
+      <div class="cities-marquee-wrap" role="list" aria-label="Hizmet verilen şehirler">
+        <div class="cities-marquee">
+          <!-- Two copies for seamless loop -->
+          <span class="city-chip" role="listitem">Diyarbakır</span>
+          <span class="city-chip" role="listitem">İstanbul</span>
+          <span class="city-chip" role="listitem">Ankara</span>
+          <span class="city-chip" role="listitem">İzmir</span>
+          <span class="city-chip" role="listitem">Bursa</span>
+          <span class="city-chip" role="listitem">Antalya</span>
+          <span class="city-chip" role="listitem">Adana</span>
+          <span class="city-chip" role="listitem">Gaziantep</span>
+          <span class="city-chip" role="listitem">Şanlıurfa</span>
+          <span class="city-chip" role="listitem">Mardin</span>
+          <span class="city-chip" role="listitem">Batman</span>
+          <span class="city-chip" role="listitem">Siirt</span>
+          <span class="city-chip" role="listitem">Elazığ</span>
+          <span class="city-chip" role="listitem">Malatya</span>
+          <span class="city-chip" role="listitem">Mersin</span>
+          <span class="city-chip" role="listitem">Konya</span>
+          <!-- duplicate -->
+          <span class="city-chip" aria-hidden="true">Diyarbakır</span>
+          <span class="city-chip" aria-hidden="true">İstanbul</span>
+          <span class="city-chip" aria-hidden="true">Ankara</span>
+          <span class="city-chip" aria-hidden="true">İzmir</span>
+          <span class="city-chip" aria-hidden="true">Bursa</span>
+          <span class="city-chip" aria-hidden="true">Antalya</span>
+          <span class="city-chip" aria-hidden="true">Adana</span>
+          <span class="city-chip" aria-hidden="true">Gaziantep</span>
+          <span class="city-chip" aria-hidden="true">Şanlıurfa</span>
+          <span class="city-chip" aria-hidden="true">Mardin</span>
+          <span class="city-chip" aria-hidden="true">Batman</span>
+          <span class="city-chip" aria-hidden="true">Siirt</span>
+          <span class="city-chip" aria-hidden="true">Elazığ</span>
+          <span class="city-chip" aria-hidden="true">Malatya</span>
+          <span class="city-chip" aria-hidden="true">Mersin</span>
+          <span class="city-chip" aria-hidden="true">Konya</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── SEO METİN BLOĞU ─────────────────────────────────────── -->
+    <div class="seo-block">
+      <div class="container">
+        <div class="seo-col">
+          <h3>Diyarbakır Evden Eve Taşımacılık</h3>
+          <p>Yıldız Nakliyat olarak Diyarbakır'da evden eve taşımacılık hizmetinde köklü bir deneyime sahibiz. Şehiriçi taşımalarınızda uzman ekibimiz, özenli ambalajlama ve güvenli taşıma ile eşyalarınızın hasarsız ulaşmasını sağlar.</p>
+        </div>
+        <div class="seo-col">
+          <h3>Diyarbakır Şehirlerarası Nakliyat</h3>
+          <p>Diyarbakır'dan Türkiye'nin her iline profesyonel şehirlerarası nakliyat hizmeti sunuyoruz. Tam sigorta kapsamı, modern araç filomuz ve deneyimli şoförlerimizle eşyalarınız güvenle hedefe ulaşır.</p>
+        </div>
+        <div class="seo-col">
+          <h3>Sigortalı & Profesyonel Nakliyat</h3>
+          <p>Her taşımamız sigorta güvencesi altındadır. Kırılgan eşyalar, antikalar ve değerli mobilyalar özel ambalaj malzemeleriyle korunur. Profesyonel ekibimiz, taşınma sürecinizi baştan sona yönetir.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── İLETİŞİM ────────────────────────────────────────────── -->
+    <section id="iletisim" aria-label="İletişim ve Teklif">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Bize Ulaşın</p>
+          <h2 class="section-title">Ücretsiz <span>Teklif Alın</span></h2>
+          <p class="section-desc">Taşınma planınızı bizimle paylaşın, size özel uygun fiyat teklifimizi hemen iletyelim.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.69 19.79 19.79 0 01.1 1.05 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="contact-card-body">
+                <label>Telefon 1</label>
+                <a href="tel:+905340584031">0534 058 40 31</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.69 19.79 19.79 0 01.1 1.05 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="contact-card-body">
+                <label>Telefon 2</label>
+                <a href="tel:+905454838251">0545 483 82 51</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-card-body">
+                <label>Merkez</label>
+                <span>Diyarbakır, Türkiye</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="contact-card-body">
+                <label>Çalışma Saatleri</label>
+                <span>Her gün 07:00 – 22:00</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" action="#" method="post" aria-label="Teklif talebi formu">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Adınız Soyadınız</label>
+                <input type="text" id="name" name="name" placeholder="Ahmet Yılmaz" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefon</label>
+                <input type="tel" id="phone" name="phone" placeholder="0530 000 00 00" required autocomplete="tel" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="from">Nereden</label>
+                <input type="text" id="from" name="from" placeholder="Diyarbakır" />
+              </div>
+              <div class="form-group">
+                <label for="to">Nereye</label>
+                <input type="text" id="to" name="to" placeholder="İstanbul" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Hizmet Türü</label>
+              <select id="service" name="service">
+                <option value="">Seçiniz...</option>
+                <option>Evden Eve Taşımacılık</option>
+                <option>Şehirlerarası Nakliyat</option>
+                <option>Şehiriçi Nakliyat</option>
+                <option>Asansörlü Taşıma</option>
+                <option>Diğer</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Mesajınız</label>
+              <textarea id="message" name="message" placeholder="Taşınma tarihiniz, kat bilgisi ve diğer detayları belirtebilirsiniz..."></textarea>
+            </div>
+            <button type="submit" class="form-submit">Ücretsiz Teklif Gönder</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ─── FOOTER ───────────────────────────────────────────────── -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#" class="logo" aria-label="Yıldız Nakliyat">
+            <svg class="logo-star" width=".19333in" height=".21in" viewBox="0 0 58 63" xmlns="http://www.w3.org/2000/svg"><path d="m52.94 15.12c1.19 0 3.84-0.26 4.65 0.7 0.67 0.78 0.06 1.97-0.39 2.7-1.38 2.19-3.02 3.49-4.86 5.2l-6.2 5.28c-5.6 4.73-11.26 9.5-15.76 15.32-1.63 2.11-2.89 4.46-3.71 7-0.48 1.5-0.6 2.98 0.69 4.13 1.62 1.45 4.54 1.27 6.58 1.27 0 0 1.4 4.8 1.4 4.8l-4.4 0.4c-5.5 0.06-12.7-1.07-13.37-7.8-0.11-1.16 0.26-2.86 0.55-4 0.36-1.4 1.5-3.54 2.26-4.8 5.91-9.78 17.27-16.57 26.76-22.49l6.6-4.38c0.53-0.45 1.75-1.49 1.37-2.29-0.32-0.69-1.52-0.76-2.17-1.04z" fill="#fff" stroke-width="0"/><path d="m30.64 0.44s0.09-0.2 0.19-0.2 0.21 0.2 0.21 0.2l4.83 14.8s1.15 3.6 1.15 3.6c0.15 0.49 0.29 1.07 0.85 1.24 0.43 0.13 2.94-0.57 3.57-0.71 2.62-0.6 5.32-1.13 8-1.13-0.91 1.07-2.76 2.03-4 2.81l-7.8 4.92c-6.3 4.08-12.14 8.9-16.97 14.67-2.16 2.59-4.44 6.5-5.25 9.8-0.24 1-0.41 2.17-0.37 3.2 0.03 0.64 0.31 1.58 0 2.13-0.25 0.42-1 0.86-1.41 1.13l-3 1.94 1.8-5.8 3.67-11 1.5-4.4 0.4-1.99s-1.37-1.39-1.37-1.39l-3.2-2.3-8.4-6.12-4.6-3.6h20.8l1.53-0.21 0.77-1.39 1.22-3.4s1.75-5.2 1.75-5.2l4.13-11.6zm10.6 36c0.88 1.01 1.82 4.74 2.31 6.2l4.69 14.8-5-3.29-11.4-8.11c0.45-1.15 1.75-2.47 2.62-3.4 2.1-2.26 4.39-4.28 6.78-6.2z" fill="#dba21d" stroke-width="0"/></svg>
+            <div class="logo-text">
+              <strong>Yıldız Nakliyat</strong>
+              <span>Diyarbakır</span>
+            </div>
+          </a>
+          <p>Güvenle Taşır, Gönül Rahatlığı Sağlarız. Diyarbakır merkezli profesyonel nakliyat hizmetleri ile tüm Türkiye'ye hizmet veriyoruz.</p>
+        </div>
+        <nav class="footer-col" aria-label="Hızlı bağlantılar">
+          <h4>Hızlı Bağlantılar</h4>
+          <ul>
+            <li><a href="#hizmetler">Hizmetlerimiz</a></li>
+            <li><a href="#neden-biz">Neden Biz</a></li>
+            <li><a href="#araclar">Araçlarımız</a></li>
+            <li><a href="#bolgeler">Hizmet Bölgeleri</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h4>İletişim</h4>
+          <ul>
+            <li><a href="tel:+905340584031">0534 058 40 31</a></li>
+            <li><a href="tel:+905454838251">0545 483 82 51</a></li>
+            <li><a href="https://wa.me/905340584031" target="_blank" rel="noopener noreferrer">WhatsApp Hattı</a></li>
+            <li><a href="#">Diyarbakır, Türkiye</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 <strong>Yıldız Nakliyat</strong>. Tüm hakları saklıdır.</p>
+        <p>Diyarbakır Evden Eve Taşımacılık | Şehirlerarası Nakliyat</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp FAB -->
+  <a class="whatsapp-fab" href="https://wa.me/905340584031" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile iletişime geç">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <!-- Mobile Phone Bar -->
+  <div class="phone-bar" role="navigation" aria-label="Hızlı arama">
+    <a href="tel:+905340584031">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.69 19.79 19.79 0 01.1 1.05 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+      0534 058 40 31
+    </a>
+    <a href="https://wa.me/905340584031" target="_blank" rel="noopener noreferrer">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+
+  <script>
+    // ── Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    // ── Hero bg load animation
+    window.addEventListener('load', () => {
+      document.getElementById('hero').classList.add('loaded');
+    });
+
+    // ── Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', open);
+    });
+    mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // ── Scroll reveal
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          revealObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => revealObs.observe(el));
+
+    // ── Counter animation
+    function animateCounter(el, target, duration) {
+      let start = null;
+      const step = (ts) => {
+        if (!start) start = ts;
+        const progress = Math.min((ts - start) / duration, 1);
+        const ease = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.floor(ease * target).toLocaleString('tr-TR') + (el.dataset.suffix || '+');
+        if (progress < 1) requestAnimationFrame(step);
+        else el.textContent = target.toLocaleString('tr-TR') + (el.dataset.suffix || '+');
+      };
+      requestAnimationFrame(step);
+    }
+
+    const statNums = document.querySelectorAll('.stat-num[data-target]');
+    const counterObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          const target = parseInt(e.target.dataset.target, 10);
+          animateCounter(e.target, target, 1800);
+          counterObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.4 });
+    statNums.forEach(el => counterObs.observe(el));
+
+    // ── Mobile phone bar scroll opacity
+    const phoneBar = document.querySelector('.phone-bar');
+    const heroBg = document.getElementById('heroBg');
+
+    function clampPhoneBarOpacity(value, min, max) {
+      return Math.min(Math.max(value, min), max);
+    }
+
+    function updatePhoneBarOpacityByHeroProgress() {
+      if (!phoneBar || !heroBg) return;
+
+      const heroBgRect = heroBg.getBoundingClientRect();
+      const heroBgHeight = heroBgRect.height || window.innerHeight;
+
+      // #heroBg yukarı doğru kayarken, element yüksekliğinin ne kadarının geçildiğini hesaplarız.
+      // %50'de opacity 0 başlar, %60'a kadar lineer şekilde opacity 1 olur.
+      const scrollProgress = clampPhoneBarOpacity(-heroBgRect.top / heroBgHeight, 0, 1);
+      const opacity = clampPhoneBarOpacity((scrollProgress - 0.50) / 0.10, 0, 1);
+
+      phoneBar.style.setProperty('--phone-bar-opacity', opacity.toFixed(3));
+      phoneBar.style.transform = `translateY(${(1 - opacity) * 18}px)`;
+      phoneBar.style.pointerEvents = opacity > 0.05 ? 'auto' : 'none';
+      phoneBar.setAttribute('aria-hidden', opacity <= 0.05 ? 'true' : 'false');
+    }
+
+    let phoneBarScrollTicking = false;
+    function requestPhoneBarOpacityUpdate() {
+      if (phoneBarScrollTicking) return;
+
+      phoneBarScrollTicking = true;
+      requestAnimationFrame(() => {
+        updatePhoneBarOpacityByHeroProgress();
+        phoneBarScrollTicking = false;
+      });
+    }
+
+    updatePhoneBarOpacityByHeroProgress();
+    window.addEventListener('scroll', requestPhoneBarOpacityUpdate, { passive: true });
+    window.addEventListener('resize', requestPhoneBarOpacityUpdate);
+    window.addEventListener('load', requestPhoneBarOpacityUpdate);
+
+    // ── Active nav link highlighting
+    const sections = document.querySelectorAll('section[id], div[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const activeObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          navLinks.forEach(a => {
+            a.style.color = a.getAttribute('href') === '#' + e.target.id
+              ? 'var(--gold-light)'
+              : '';
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    sections.forEach(s => activeObs.observe(s));
+  </script>
+</body>
+</html>
